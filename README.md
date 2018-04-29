@@ -17,7 +17,7 @@
 ```
 -->
 ```html
-<paper-loginscreen></paper-loginscreen>
+<paper-loginscreen title="Login to" subtitle="webcomponents.org"></paper-loginscreen>
 ```
 
 For more details, see the demo on webcomponents.org

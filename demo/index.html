@@ -30,10 +30,10 @@
             <li>Simulate a good password : username='admin',password='pass'</li>
           </ul>
         </div>
-        <paper-loginscreen title="Login to" subtitle="webcomponents.org" on-login-btn-click="onLogin" id="form"></paper-loginscreen>
+        <paper-loginscreen title="Login to" subtitle="webcomponents.org" id="form"></paper-loginscreen>
         <script>
-          function onLogin() {
-            var form = this.$.form;
+          var form = document.getElementById("form");
+          form.addEventListener("login-btn-click",()=>{
             form.loading = true;
             form.errorMsg = "";
             setTimeout(() => {
@@ -49,8 +49,7 @@
                 form.errorMsg = "Invalid username or password";
               }
             }, 5000);
-
-          }
+          });
         </script>
       </template>
     </demo-snippet>
