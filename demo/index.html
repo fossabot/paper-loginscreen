@@ -33,7 +33,7 @@
         <paper-loginscreen title="Login to" subtitle="webcomponents.org" id="form"></paper-loginscreen>
         <script>
           var form = document.getElementById("form");
-          form.addEventListener("login-btn-click",()=>{
+          form.addEventListener("login-btn-click", () => {
             form.loading = true;
             form.errorMsg = "";
             setTimeout(() => {
@@ -51,6 +51,19 @@
             }, 5000);
           });
         </script>
+      </template>
+    </demo-snippet>
+  </div>
+  <div class="vertical-section-container centered">
+    <h3>Basic paper-loginscreen demo with custom links</h3>
+    <demo-snippet>
+      <template>
+        <paper-loginscreen title="Login to" subtitle="webcomponents.org" id="form">
+          <div slot="links">
+            <a href>Sign up</a> -
+            <a href>Lost password</a>
+          </div>
+        </paper-loginscreen>
       </template>
     </demo-snippet>
   </div>
