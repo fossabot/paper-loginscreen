@@ -2,7 +2,7 @@
   "name": "paper-loginscreen",
   "description": "Material login screen, built using Polymer 3",
   "main": "paper-loginscreen.js",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "license": "MIT",
   "authors": [
     "cforgeard"
@@ -13,7 +13,7 @@
     "login",
     "screen",
     "account",
-	"polymer 3"
+    "polymer 3"
   ],
   "repository": {
     "type": "git",
