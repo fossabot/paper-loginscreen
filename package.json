@@ -1,38 +1,26 @@
 {
+  "name": "paper-loginscreen",
   "description": "Material login screen, built using Polymer",
-  "keywords": [
-    "web-components",
-    "polymer",
-    "login",
-    "screen",
-    "account"
+  "main": "paper-loginscreen.js",
+  "version": "1.1.0",
+  "license": "MIT",
+  "authors": [
+    "cforgeard"
   ],
   "repository": {
     "type": "git",
     "url": "git://github.com/cforgeard/paper-loginscreen.git"
   },
-  "name": "@polymer/paper-loginscreen",
-  "version": "1.2.1",
-  "licence": "MIT",
-  "resolutions": {
-    "inherits": "2.0.3",
-    "samsam": "1.1.3",
-    "supports-color": "3.1.2",
-    "type-detect": "1.0.0",
-    "@webcomponents/webcomponentsjs": "2.0.0-beta.2"
-  },
-  "main": "paper-loginscreen.js",
-  "author": "cforgeard",
   "dependencies": {
-    "@polymer/polymer": "^3.0.0",
-    "@polymer/paper-button": "^3.0.0-pre.18",
-    "@polymer/paper-styles": "^3.0.0-pre.18",
-    "@polymer/paper-input": "^3.0.0-pre.18",
-    "@polymer/paper-progress": "^3.0.0-pre.18"
+    "@polymer/paper-button": "^3.0.0-pre.19",
+    "@polymer/paper-input": "^3.0.0-pre.19",
+    "@polymer/paper-progress": "^3.0.0-pre.19",
+    "@polymer/paper-styles": "^3.0.0-pre.19",
+    "@polymer/polymer": "^3.0.0"
   },
   "devDependencies": {
-    "@polymer/iron-demo-helpers": "^3.0.0-pre.18",
-    "wct-browser-legacy": "^0.0.1-pre.11",
-    "@webcomponents/webcomponentsjs": "^2.0.0"
+    "@polymer/iron-demo-helpers": "^3.0.0-pre.19",
+    "@webcomponents/webcomponentsjs": "^2.0.0",
+    "wct-browser-legacy": "^1.0.0"
   }
 }
