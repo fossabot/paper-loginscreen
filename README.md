@@ -6,35 +6,21 @@ Last version created with Polymer 2 is 1.0.1.
 
 [![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/cforgeard/paper-loginscreen)
 
-<!---
-```
-<custom-element-demo>
-  <template>
-    <script src="../webcomponentsjs/webcomponents-lite.js"></script>
-    <link rel="import" href="paper-loginscreen.html">
-    <style>*{font-family:"Source Sans Pro",Roboto,sans-serif;}</style>
-    <next-code-block></next-code-block>
-  </template>
-</custom-element-demo>
-```
--->
+
 ```html
 <paper-loginscreen title="Login to" subtitle="webcomponents.org"></paper-loginscreen>
 ```
 
-For more details, see the demo on webcomponents.org
-
-## Npm
-
+webcomponents.org demos don't seem to work right with Polymer 3, so download via Github and run
 ```
-npm install paper-loginscreen
+polymer serve
 ```
 
-## Bower
+## Demos
 
-```
-bower install paper-loginscreen
-```
+![Demo 1](https://rawgit.com/cforgeard/paper-loginscreen/master/demo1.PNG)
+![Demo 2](https://rawgit.com/cforgeard/paper-loginscreen/master/demo2.PNG)
+
 
 ## Credits and licence
 
