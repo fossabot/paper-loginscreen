@@ -12,7 +12,7 @@
     "url": "git://github.com/cforgeard/paper-loginscreen.git"
   },
   "name": "@polymer/paper-loginscreen",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "licence": "MIT",
   "resolutions": {
     "inherits": "2.0.3",
