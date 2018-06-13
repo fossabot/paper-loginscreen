@@ -1,8 +1,6 @@
 # \<paper-loginscreen\>
 
-`paper-loginscreen` is a material login screen, built using Polymer 3.
-
-Last version created with Polymer 2 is 1.0.1.
+`paper-loginscreen` is a material login screen, built using Polymer.
 
 [![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/cforgeard/paper-loginscreen)
 
@@ -10,8 +8,8 @@ Last version created with Polymer 2 is 1.0.1.
 ```
 <custom-element-demo>
   <template>
-    <script src="../@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
-    <script type="module" src="paper-loginscreen.js"></script>
+    <script src="../webcomponentsjs/webcomponents-lite.js"></script>
+    <link rel="import" href="paper-loginscreen.html">
     <style>*{font-family:"Source Sans Pro",Roboto,sans-serif;}</style>
     <next-code-block></next-code-block>
   </template>
@@ -24,16 +22,10 @@ Last version created with Polymer 2 is 1.0.1.
 
 For more details, see the demo on webcomponents.org
 
-## npm
-
-```
-npm install paper-loginscreen
-```
-
 ## Bower
 
 ```
-bower install paper-loginscreen#1.0.1
+bower install paper-loginscreen
 ```
 
 ## Credits and licence
